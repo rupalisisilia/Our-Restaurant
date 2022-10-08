@@ -5,7 +5,24 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Our-Restaurant</title>
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
+	<!-- Font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<style>
+		.carousel-control-prev-icon {
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+		}
+
+		.carousel-control-next-icon {
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+		}
+	</style>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	<link rel="stylesheet" href="css/reset.css">
@@ -15,8 +32,10 @@
 	<!--aos css-->
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link rel="stylesheet" href="css/home.css">
+
+	
 </head>
-<body>
+<body class="bg-light">
 	<!-- nav section -->
 	<div class="nav">
 		<div class="container">
@@ -49,6 +68,34 @@
 		</div>
 	</div>
 	<!-- end nav section -->
+	<!--head section-->
+	<div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+		<div class="col">
+		  <div class="card h-100">
+			<img src="./images/soups.png" class="card-img-top" alt="" style="max-width: 75%">
+			<div class="card-body">
+			  <p class="card-text">Soup</p>
+			</div>
+		</div>
+		</div>
+		<div class="col">
+		  <div class="card h-100">
+			<img src="./images/food-1.png" class="card-img-top" alt="" style="max-width: 75%">
+			<div class="card-body">
+			  <p class="card-text">Salad</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col">
+		  <div class="card h-100">
+			<img src="./images/appetizer.png" class="card-img-top" alt="" style="max-width: 75%">
+			<div class="card-body">
+			  <p class="card-text">Appetizer</p>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	<!--end head section-->
 	<!--Hero section-->
 	<section id="hero">
 		<div class="container">
