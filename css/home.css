@@ -633,4 +633,11 @@
 	}
 }
 
+.custom-card {
+    border: none;
+    background: none;
+    display: flex;
+    /* justify-content: center; */
+}
+
    
